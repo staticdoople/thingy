@@ -1,0 +1,1059 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 287,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "initialGDVersion": "5.6.281",
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "a265735d-2f95-4158-95d3-9830c53b54fa",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "ol puter",
+    "description": "",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 606,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 2,
+      "progressBarColor": 5963549,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": false
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Ball.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Ball.png\"}",
+        "name": "Ball",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ball2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ball2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ball3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ball3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ball4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ball4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Floor.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Floor.png\"}",
+        "name": "Floor",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GDevelopInvalidTextureBlock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GDevelopInvalidTextureBlock.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Cubes/01-Placeholders/683fe375b7ad53e894d022b3694ed1b2a3d24b43a9de34f341b8a7cb2723c582_GDevelopInvalidTextureBlock.png",
+          "name": "GDevelopInvalidTextureBlock.png"
+        }
+      },
+      {
+        "file": "assets/wallpaper.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/wallpaper.png\"}",
+        "name": "wallpaper",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Top.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Top",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Placeholderplayer.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Placeholderplayer.glb",
+        "userAdded": false
+      },
+      {
+        "file": "door.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "door.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Rgb.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Rgb",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Placeholder2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Placeholder2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Indoorsmountain (1).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Indoorsmountain (1).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Hallways.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Hallways.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Placeholder3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Placeholder3.glb",
+        "userAdded": false
+      },
+      {
+        "file": "hisfloorwip.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "hisfloorwip.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Placeholder4.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Placeholder4.glb",
+        "userAdded": false
+      },
+      {
+        "file": "lesserghost.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "lesserghost.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/New sound effect.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 411\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.08,\\\"sustainPunch\\\":0,\\\"decay\\\":0.33,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":634.2055034561682,\\\"frequencySweep\\\":-5000,\\\"frequencyDeltaSweep\\\":-5000,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"brownnoise\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":7,\\\"flangerOffsetSweep\\\":-3,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"}}",
+        "name": "New sound effect",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Textsounds.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 411\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0,\\\"sustainPunch\\\":0,\\\"decay\\\":0.025692180266371878,\\\"tremoloDepth\\\":10,\\\"tremoloFrequency\\\":11.019543477493691,\\\"frequency\\\":10000,\\\"frequencySweep\\\":-3200,\\\"frequencyDeltaSweep\\\":-3600,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"brownnoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Textsounds\"}}",
+        "name": "Textsounds",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Floor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Floor.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bgcomputer.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Bgcomputer.png\"}",
+        "name": "Bgcomputer",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "modelhead.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "modelhead.glb",
+        "userAdded": false
+      },
+      {
+        "file": "modelhead2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "modelhead2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "modelheadv2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "modelheadv2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "modeltorso.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "modeltorso.glb",
+        "userAdded": false
+      },
+      {
+        "file": "modellegs.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "modellegs.glb",
+        "userAdded": false
+      },
+      {
+        "file": "modeltorsofinal.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "modeltorsofinal.glb",
+        "userAdded": false
+      },
+      {
+        "file": "modellegsfinale.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "modellegsfinale.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fade.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fade",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ]
+  },
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Player",
+      "persistentUuid": "6863eaa5-f0d1-4808-a73e-52ad9290884f",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.1,
+        "depth": 86.488,
+        "height": 21.89227474224568,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "modelheadv2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": -90,
+        "width": 20.574683601737032,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle1",
+            "source": "Idle1"
+          },
+          {
+            "loop": true,
+            "name": "Idle2",
+            "source": "Idle2"
+          },
+          {
+            "loop": true,
+            "name": "Idle3",
+            "source": "Idle3"
+          },
+          {
+            "loop": true,
+            "name": "Idle4",
+            "source": "Idle4"
+          },
+          {
+            "loop": true,
+            "name": "Idle5",
+            "source": "Idle5"
+          },
+          {
+            "loop": true,
+            "name": "Idle6",
+            "source": "Idle6"
+          },
+          {
+            "loop": true,
+            "name": "Walk1",
+            "source": "Walk1"
+          },
+          {
+            "loop": true,
+            "name": "Walk2",
+            "source": "Walk2"
+          },
+          {
+            "loop": true,
+            "name": "Walk3",
+            "source": "Walk3"
+          },
+          {
+            "loop": true,
+            "name": "Walk4",
+            "source": "Walk4"
+          },
+          {
+            "loop": true,
+            "name": "Walk5",
+            "source": "Walk5"
+          },
+          {
+            "loop": true,
+            "name": "Walk6",
+            "source": "Walk6"
+          },
+          {
+            "loop": true,
+            "name": "Running1",
+            "source": "Running1"
+          },
+          {
+            "loop": true,
+            "name": "Running2",
+            "source": "Running2"
+          },
+          {
+            "loop": true,
+            "name": "Running3",
+            "source": "Running3"
+          },
+          {
+            "loop": true,
+            "name": "Running4",
+            "source": "Running4"
+          },
+          {
+            "loop": true,
+            "name": "Running5",
+            "source": "Running5"
+          },
+          {
+            "loop": true,
+            "name": "Running6",
+            "source": "Running6"
+          },
+          {
+            "loop": false,
+            "name": "dead1",
+            "source": "dead1"
+          },
+          {
+            "loop": false,
+            "name": "dead2",
+            "source": "dead2"
+          },
+          {
+            "loop": false,
+            "name": "dead3",
+            "source": "dead3"
+          },
+          {
+            "loop": false,
+            "name": "dead4",
+            "source": "dead4"
+          },
+          {
+            "loop": false,
+            "name": "dead5",
+            "source": "dead5"
+          },
+          {
+            "loop": false,
+            "name": "dead6",
+            "source": "dead6"
+          },
+          {
+            "loop": false,
+            "name": "Healdance",
+            "source": "Healdance"
+          },
+          {
+            "loop": false,
+            "name": "HeavyAttack",
+            "source": "HeavyAttack"
+          },
+          {
+            "loop": false,
+            "name": "animation2",
+            "source": "animation2"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Playertorso",
+      "persistentUuid": "d8d4e387-f4b3-41c3-877b-adbd84227d47",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.1,
+        "depth": 69.92480496644974,
+        "height": 113.53084200195151,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "modeltorsofinal.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": -90,
+        "width": 29.43317782926561,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle1",
+            "source": "Idle1"
+          },
+          {
+            "loop": true,
+            "name": "Idle2",
+            "source": "Idle2"
+          },
+          {
+            "loop": true,
+            "name": "Idle3",
+            "source": "Idle3"
+          },
+          {
+            "loop": true,
+            "name": "Idle4",
+            "source": "Idle4"
+          },
+          {
+            "loop": true,
+            "name": "Idle5",
+            "source": "Idle5"
+          },
+          {
+            "loop": true,
+            "name": "Idle6",
+            "source": "Idle6"
+          },
+          {
+            "loop": true,
+            "name": "Idle7",
+            "source": "Idle7"
+          },
+          {
+            "loop": true,
+            "name": "Walk1",
+            "source": "Walk1"
+          },
+          {
+            "loop": true,
+            "name": "Walk2",
+            "source": "Walk2"
+          },
+          {
+            "loop": true,
+            "name": "Walk3",
+            "source": "Walk3"
+          },
+          {
+            "loop": true,
+            "name": "Walk4",
+            "source": "Walk4"
+          },
+          {
+            "loop": true,
+            "name": "Walk5",
+            "source": "Walk5"
+          },
+          {
+            "loop": true,
+            "name": "Walk6",
+            "source": "Walk6"
+          },
+          {
+            "loop": true,
+            "name": "Walk7",
+            "source": "Walk7"
+          },
+          {
+            "loop": true,
+            "name": "Running1",
+            "source": "Running1"
+          },
+          {
+            "loop": true,
+            "name": "Running2",
+            "source": "Running2"
+          },
+          {
+            "loop": true,
+            "name": "Running3",
+            "source": "Running3"
+          },
+          {
+            "loop": true,
+            "name": "Running4",
+            "source": "Running4"
+          },
+          {
+            "loop": true,
+            "name": "Running5",
+            "source": "Running5"
+          },
+          {
+            "loop": true,
+            "name": "Running6",
+            "source": "Running6"
+          },
+          {
+            "loop": true,
+            "name": "Running7",
+            "source": "Running7"
+          },
+          {
+            "loop": false,
+            "name": "dead1",
+            "source": "dead1"
+          },
+          {
+            "loop": false,
+            "name": "dead2",
+            "source": "dead2"
+          },
+          {
+            "loop": false,
+            "name": "dead3",
+            "source": "dead3"
+          },
+          {
+            "loop": false,
+            "name": "dead4",
+            "source": "dead4"
+          },
+          {
+            "loop": false,
+            "name": "dead5",
+            "source": "dead5"
+          },
+          {
+            "loop": false,
+            "name": "dead6",
+            "source": "dead6"
+          },
+          {
+            "loop": false,
+            "name": "dead7",
+            "source": "dead7"
+          },
+          {
+            "loop": false,
+            "name": "Healdance",
+            "source": "Healdance"
+          },
+          {
+            "loop": false,
+            "name": "HeavyAttack",
+            "source": "HeavyAttack"
+          },
+          {
+            "loop": false,
+            "name": "animation",
+            "source": "animation"
+          },
+          {
+            "loop": false,
+            "name": "animation2",
+            "source": "animation2"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Playerlegs",
+      "persistentUuid": "9cd5e267-ddaa-441b-96c9-24209833a1d9",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.1,
+        "depth": 37.50065625,
+        "height": 23.908256641530993,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "modellegsfinale.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": -90,
+        "width": 20.67603711336852,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle1",
+            "source": "Idle1"
+          },
+          {
+            "loop": true,
+            "name": "Idle2",
+            "source": "Idle2"
+          },
+          {
+            "loop": true,
+            "name": "Idle3",
+            "source": "Idle3"
+          },
+          {
+            "loop": true,
+            "name": "Walk1",
+            "source": "Walk1"
+          },
+          {
+            "loop": true,
+            "name": "Walk2",
+            "source": "Walk2"
+          },
+          {
+            "loop": true,
+            "name": "Walk3",
+            "source": "Walk3"
+          },
+          {
+            "loop": true,
+            "name": "Running1",
+            "source": "Running1"
+          },
+          {
+            "loop": true,
+            "name": "Running2",
+            "source": "Running2"
+          },
+          {
+            "loop": true,
+            "name": "Running3",
+            "source": "Running3"
+          },
+          {
+            "loop": false,
+            "name": "dead1",
+            "source": "dead1"
+          },
+          {
+            "loop": false,
+            "name": "dead2",
+            "source": "dead2"
+          },
+          {
+            "loop": false,
+            "name": "dead3",
+            "source": "dead3"
+          },
+          {
+            "loop": false,
+            "name": "Healdance",
+            "source": "Healdance"
+          },
+          {
+            "loop": false,
+            "name": "animation",
+            "source": "animation"
+          },
+          {
+            "loop": false,
+            "name": "animation2",
+            "source": "animation2"
+          }
+        ]
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Fade",
+      "persistentUuid": "3148a72a-06a2-487a-83d3-d21459f83370",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Start",
+          "persistentUuid": "425b29d8-d8b5-4230-aedc-9b91b5ac036f",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Fade",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fade",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Player"
+      },
+      {
+        "objectName": "Playertorso"
+      },
+      {
+        "objectName": "Playerlegs"
+      },
+      {
+        "objectName": "Fade"
+      }
+    ]
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "Vessel",
+      "persistentUuid": "f8254614-44c5-477f-bd60-8b35c5495553",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Head",
+          "persistentUuid": "0f705469-e03c-41e5-b864-d719b943be33",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "Legs",
+          "persistentUuid": "2b2457bc-ad64-45de-8bb9-979c28515250",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "Torso",
+          "persistentUuid": "ccf12ec8-cee5-413b-801e-c54e188c89e7",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/mainhub"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/4th-floor-sim"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/vesselmaker"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    }
+  ],
+  "layoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "Mainhub"
+      },
+      {
+        "itemName": "4th floor sim"
+      },
+      {
+        "itemName": "Vesselmaker"
+      },
+      {
+        "itemName": "Untitled scene"
+      }
+    ]
+  },
+  "externalEvents": [],
+  "externalEventsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "testsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/isonscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/light3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/thirdpersoncamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/websocketclient"
+    }
+  ],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/rightroom1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/rightroom2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/rightroom3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/rightroom4"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/rightroom5"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/right-to-uproom"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/up-to-rightroom"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/uproom1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/uproom2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/uproom3"
+    }
+  ],
+  "externalLayoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "Rightroom1"
+      },
+      {
+        "itemName": "Rightroom2"
+      },
+      {
+        "itemName": "Rightroom3"
+      },
+      {
+        "itemName": "Rightroom4"
+      },
+      {
+        "itemName": "Rightroom5"
+      },
+      {
+        "itemName": "Right-to-uproom"
+      },
+      {
+        "itemName": "Up-to-rightroom"
+      },
+      {
+        "itemName": "Uproom1"
+      },
+      {
+        "itemName": "Uproom2"
+      },
+      {
+        "itemName": "Uproom3"
+      }
+    ]
+  }
+}
