@@ -1,0 +1,2029 @@
+{
+  "b": 255,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Mainhub",
+  "name": "Mainhub",
+  "r": 255,
+  "renderer3DWorldScale": 100,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 255,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridDepth": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridOffsetZ": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.5500032386579704,
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "Goingto",
+      "persistentUuid": "6c7c3808-5a6f-47a6-ab40-16ff2bdc611e",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 47,
+      "hidden": true,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Textinputdoohickey",
+      "persistentUuid": "b20ba052-a29d-4c4d-b473-08fd96f2b63b",
+      "width": 328,
+      "x": 248,
+      "y": 96,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 640,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "Bg",
+      "persistentUuid": "3ecfbb62-02b2-4ecc-bd87-b3e6c10dbe29",
+      "width": 864,
+      "x": -32,
+      "y": -32,
+      "zOrder": -90,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 35,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Text",
+      "persistentUuid": "e50f500a-7d58-4175-8666-dd6c99e089d3",
+      "width": 799,
+      "x": 1,
+      "y": 320,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 640,
+      "keepRatio": true,
+      "layer": "Fade",
+      "name": "Fade",
+      "persistentUuid": "c0ed277c-6fcf-4f33-aa6e-3f7a84f2b48c",
+      "width": 864,
+      "x": -32,
+      "y": -32,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Textinputdoohickey",
+      "persistentUuid": "067778e2-2fae-4148-9064-31160caeb8ff",
+      "type": "TextInput::TextInputObject",
+      "variables": [
+        {
+          "name": "text",
+          "persistentUuid": "580c72bc-14a0-486c-824f-a2bae08597b5",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "initialValue": "",
+        "placeholder": "",
+        "fontResourceName": "",
+        "fontSize": 30,
+        "inputType": "text",
+        "textColor": "90;255;29",
+        "fillColor": "0;0;0",
+        "fillOpacity": 255,
+        "borderColor": "90;255;29",
+        "borderOpacity": 255,
+        "borderWidth": 3,
+        "readOnly": false,
+        "disabled": false,
+        "spellCheck": false,
+        "paddingX": 2,
+        "paddingY": 1,
+        "textAlign": "center",
+        "maxLength": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "persistentUuid": "5c1ff551-755f-4525-9518-fe38f0775be2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Floor.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Bg",
+      "persistentUuid": "cf16b938-71d9-4248-b06a-58d9f7bedae3",
+      "texture": "Bgcomputer",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Text",
+      "persistentUuid": "4853a0e6-00a6-42c9-991c-795196a42f49",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "Finished",
+          "persistentUuid": "3a363104-5be0-4b0a-876e-7cd301f36094",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 32,
+      "color": {
+        "b": 29,
+        "g": 255,
+        "r": 90
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 32,
+        "lineHeight": 0,
+        "color": "90;255;29"
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Textinputdoohickey"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "Bg"
+      },
+      {
+        "objectName": "Text"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Fade",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Fade",
+            "Start",
+            "=",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Fade",
+            "Start",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween3"
+          },
+          "parameters": [
+            "Fade",
+            "Tween",
+            "Opacity",
+            "\"startup\"",
+            "0",
+            "\"linear\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Fade\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextInput::TextInputObject::SetDisabled"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Fade",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::Exists"
+          },
+          "parameters": [
+            "Fade",
+            "Tween",
+            "\"startup\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "Fade",
+            "Tween",
+            "\"startup\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::RemoveTween"
+          },
+          "parameters": [
+            "Fade",
+            "Tween",
+            "\"startup\""
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween3"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "Tween",
+            "Opacity",
+            "\"show\"",
+            "255",
+            "\"easeOutQuad\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Textinputdoohickey",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::Exists"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "Tween",
+            "\"show\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "Tween",
+            "\"show\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::RemoveTween"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "Tween",
+            "\"show\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextInput::TextInputObject::SetDisabled"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "Text",
+            "=",
+            "\"Click on me\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TiledSpriteObject::XOffset"
+          },
+          "parameters": [
+            "Bg",
+            "+",
+            ".05"
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledSpriteObject::YOffset"
+          },
+          "parameters": [
+            "Bg",
+            "+",
+            ".05"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "Text",
+            "!=",
+            "Textinputdoohickey.text"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Textsounds",
+            "",
+            "RandomInRange(85,95)",
+            "RandomInRange(.9,1.05)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "text",
+            "=",
+            "Textinputdoohickey.Text::Value()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "\"ugh\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextInput::TextInputObject::SetInputType"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "=",
+            "\"text\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "\"ugh\"",
+            ">=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "RemoveObjectTimer"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "\"ugh\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextInput::TextInputObject::SetInputType"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "=",
+            "\"password\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextInput::TextInputObject::IsInputSubmitted"
+          },
+          "parameters": [
+            "Textinputdoohickey"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Text",
+            "Text",
+            "=",
+            "\"\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "LaunchFile"
+              },
+              "parameters": [
+                "Textinputdoohickey.Text::Value()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "=",
+                    "\"Basement\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "=",
+                    "\"basement\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "LaunchFile"
+              },
+              "parameters": [
+                "\"https://rustedshelter.neocities.org/Edv3phqw\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "startsWith",
+                    "\"what\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "startsWith",
+                    "\"who\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "startsWith",
+                    "\"What\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "startsWith",
+                    "\"Who\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "Textinputdoohickey",
+                        "Text",
+                        "contains",
+                        "\"are you\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "Textinputdoohickey",
+                        "Text",
+                        "contains",
+                        "\"are You\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "Textinputdoohickey",
+                        "Text",
+                        "contains",
+                        "\"Are you\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "Textinputdoohickey",
+                        "Text",
+                        "contains",
+                        "\"Are You\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "Textinputdoohickey",
+                        "Text",
+                        "endsWith",
+                        "\"?\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "Textinputdoohickey",
+                        "Text",
+                        "endsWith",
+                        "\"?\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Text",
+                    "Text",
+                    "=",
+                    "\"I am just a shoddy software to help out with infomation or gain access to some restricted parts of the hotel.\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "=",
+                    "\"4th Floor\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "=",
+                    "\"4th floor\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "=",
+                    "\"Floor 4\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "=",
+                    "\"floor 4\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Goingto",
+                "=",
+                "\"4thfloor\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "=",
+                    "\"Verity\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "=",
+                    "\"verity\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "LaunchFile"
+              },
+              "parameters": [
+                "\"https://youtu.be/tVlKLpxyCBY\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "=",
+                    "\"Flicker\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "=",
+                    "\"flicker\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Text",
+                "Text",
+                "=",
+                "\"I'm sorry this is either an issue with my coding or limitations with the engine I'm made in\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "contains",
+                    "\"Help\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "contains",
+                    "\"help\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "Textinputdoohickey",
+                        "Text",
+                        "contains",
+                        "\"Don't\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "Textinputdoohickey",
+                        "Text",
+                        "contains",
+                        "\"Dont\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "Textinputdoohickey",
+                        "Text",
+                        "contains",
+                        "\"dont\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "Textinputdoohickey",
+                        "Text",
+                        "contains",
+                        "\"don't\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Text",
+                    "Text",
+                    "=",
+                    "\"I'm not going to do that anyways\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Text",
+                    "Text",
+                    "=",
+                    "\"There will be no help from me\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "=",
+                    "\"Close\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "=",
+                    "\"close\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "contains",
+                    "\"Solve\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "contains",
+                    "\"solve\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "Textinputdoohickey",
+                        "Text",
+                        "contains",
+                        "\"Don't\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "Textinputdoohickey",
+                        "Text",
+                        "contains",
+                        "\"Dont\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "Textinputdoohickey",
+                        "Text",
+                        "contains",
+                        "\"dont\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "Textinputdoohickey",
+                        "Text",
+                        "contains",
+                        "\"don't\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Text",
+                    "Text",
+                    "=",
+                    "\"Okay?\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Text",
+                    "Text",
+                    "=",
+                    "\"That's for you to do\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "contains",
+                    "\"Polynomers\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "contains",
+                    "\"polynomers\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Text",
+                "Text",
+                "=",
+                "\"That place fucking sucks\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "contains",
+                    "\"fuck\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "contains",
+                    "\"Fuck\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "contains",
+                    "\"shit\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "contains",
+                    "\"Shit\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "contains",
+                    "\"Asshole\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Textinputdoohickey",
+                    "Text",
+                    "contains",
+                    "\"asshole\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Text",
+                "Text",
+                "=",
+                "\"Language \""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Textinputdoohickey",
+                "Text",
+                "=",
+                "\"\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "AdvancedWindow::SetMinimizable"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AdvancedWindow::SetFullScreenable"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AdvancedWindow::SetResizable"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "Goingto",
+            "!=",
+            "\"\""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Tween::Exists"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "Tween",
+            "\"fadeout\""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "TextInput::TextInputObject::Disabled"
+          },
+          "parameters": [
+            "Textinputdoohickey"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextInput::TextInputObject::SetDisabled"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween3"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "Tween",
+            "Opacity",
+            "\"fadeout\"",
+            "0",
+            "\"easeOutQuad\"",
+            "2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Textinputdoohickey",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::Exists"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "Tween",
+            "\"fadeout\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "Tween",
+            "\"fadeout\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::RemoveTween"
+          },
+          "parameters": [
+            "Textinputdoohickey",
+            "Tween",
+            "\"fadeout\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween3"
+          },
+          "parameters": [
+            "Fade",
+            "Tween",
+            "Opacity",
+            "\"ending\"",
+            "255",
+            "\"easeOutQuad\"",
+            "1",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Fade",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::Exists"
+          },
+          "parameters": [
+            "Fade",
+            "Tween",
+            "\"ending\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "Fade",
+            "Tween",
+            "\"ending\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::RemoveTween"
+          },
+          "parameters": [
+            "Fade",
+            "Tween",
+            "\"ending\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "Goingto",
+                "=",
+                "\"4thfloor\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Vesselmaker\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Text",
+      "conditions": [
+        {
+          "type": {
+            "value": "AutoTyping::AutoTyping::IsFinished"
+          },
+          "parameters": [
+            "Text",
+            "AutoTyping",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Text",
+            "Finished",
+            "False",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Text",
+            "Finished",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Text",
+            "\"lifespan\""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Text",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "AutoTyping::AutoTyping::IsFinished"
+          },
+          "parameters": [
+            "Text",
+            "AutoTyping",
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AutoTyping::AutoTyping::HasJustTyped"
+              },
+              "parameters": [
+                "Text",
+                "AutoTyping",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Textsounds",
+                "",
+                "RandomInRange(85,95)",
+                "RandomInRange(.9,1.05)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Text",
+                "Finished",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "RemoveObjectTimer"
+              },
+              "parameters": [
+                "Text",
+                "\"lifespan\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Text",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "Text",
+            "\"lifespan\"",
+            ">=",
+            "2.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Text",
+            "Finished",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "RemoveObjectTimer"
+          },
+          "parameters": [
+            "Text",
+            "\"lifespan\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Text",
+            "Text",
+            "=",
+            "\"\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Layer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Fade",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300,
+            "shadowDistance": 2000,
+            "shadowNormalBias": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "shadowRenderingMode": "fittedToCameraView",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "AutoTyping",
+      "type": "AutoTyping::AutoTyping"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Object3D",
+      "type": "Scene3D::Base3DBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}

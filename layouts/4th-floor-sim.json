@@ -1,0 +1,1809 @@
+{
+  "b": 255,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "_52th_32floor_32sim",
+  "name": "4th floor sim",
+  "r": 247,
+  "renderer3DWorldScale": 100,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 249,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridDepth": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridOffsetZ": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.9665341999982265,
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
+  },
+  "objectsGroups": [
+    {
+      "name": "Obstacles",
+      "objects": [
+        {
+          "name": "Wall"
+        }
+      ]
+    },
+    {
+      "name": "playerparts",
+      "objects": [
+        {
+          "name": "Player"
+        },
+        {
+          "name": "Playertorso"
+        },
+        {
+          "name": "Playerlegs"
+        }
+      ]
+    },
+    {
+      "name": "Roomspawner",
+      "objects": [
+        {
+          "name": "Spawnright"
+        },
+        {
+          "name": "Spawnup"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 608,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Floor",
+      "persistentUuid": "090b1561-8158-4610-bbba-a21ae7904118",
+      "width": 800,
+      "x": 0,
+      "y": -32,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 128,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "346f590b-83df-480e-98c5-c410ecf4a27c",
+      "width": 736,
+      "x": 0,
+      "y": 544,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 128,
+      "height": 192,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "9281404e-102f-4a96-8551-0ab9e510ee88",
+      "width": 64,
+      "x": 736,
+      "y": 352,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "373e47a4-421f-4bd0-a410-20aee8a864c8",
+      "width": 0,
+      "x": 736,
+      "y": 544,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "a11963ba-2584-404e-81ed-706e55116921",
+      "width": 0,
+      "x": 736,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 128,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "fbc843cb-d973-4038-8179-3a5f8bf2aab0",
+      "width": 736,
+      "x": 0,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 128,
+      "height": 192,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "a483da9e-baed-4e1b-bb80-1e2354f1fde1",
+      "width": 64,
+      "x": 736,
+      "y": 64,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 128,
+      "height": 480,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "6615c77e-55fb-4432-9622-6b37af3ec599",
+      "width": 64,
+      "x": 0,
+      "y": 64,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Hitboxes",
+      "persistentUuid": "9b88e488-080d-443e-8855-21a1d305e3c2",
+      "width": 0,
+      "x": 416,
+      "y": 256,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spawnright",
+      "persistentUuid": "d5c634c1-d878-4e14-99c3-63e3ad0efd01",
+      "width": 0,
+      "x": 800,
+      "y": 288,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Lighting",
+      "name": "_2dlight",
+      "persistentUuid": "58fee4db-ad12-4dc9-9a07-67806afa040a",
+      "width": 0,
+      "x": 498,
+      "y": -274,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 608,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "Rgb",
+      "persistentUuid": "655585d9-91e9-4b3f-afa0-d3852ccfbf35",
+      "width": 800,
+      "x": 0,
+      "y": 0,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 608,
+      "keepRatio": true,
+      "layer": "transition",
+      "name": "Fade",
+      "persistentUuid": "ca1adbfe-7103-49f3-b682-8e31deb72207",
+      "width": 800,
+      "x": 0,
+      "y": 0,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Golfball",
+      "persistentUuid": "c4d713dd-6ebb-4c20-ae54-c73843e83ff4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Ball",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ball2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 95,
+                        "y": 1
+                      },
+                      {
+                        "x": 95,
+                        "y": 95
+                      },
+                      {
+                        "x": 1,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ball3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 95,
+                        "y": 1
+                      },
+                      {
+                        "x": 95,
+                        "y": 95
+                      },
+                      {
+                        "x": 1,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ball4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 95,
+                        "y": 1
+                      },
+                      {
+                        "x": 95,
+                        "y": 95
+                      },
+                      {
+                        "x": 1,
+                        "y": 95
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Floor",
+      "persistentUuid": "52d78c26-53b2-4124-b621-d5bcce5ff7b2",
+      "texture": "Floor",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "ce38699e294f43b350ea51663814fd1bcc22717c7a461da50a57e7bacadab8cd",
+      "name": "Wall",
+      "persistentUuid": "cd4b1efc-a7f7-435c-b27a-0a6a2fee5d5e",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 64,
+        "height": 64,
+        "depth": 128,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Z",
+        "frontFaceResourceName": "Top",
+        "backFaceResourceName": "Top",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "wallpaper",
+        "rightFaceResourceName": "wallpaper",
+        "topFaceResourceName": "wallpaper",
+        "bottomFaceResourceName": "wallpaper",
+        "frontFaceVisible": true,
+        "backFaceVisible": true,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": true,
+        "leftFaceResourceRepeat": true,
+        "rightFaceResourceRepeat": true,
+        "topFaceResourceRepeat": true,
+        "bottomFaceResourceRepeat": true,
+        "tileScale": 0.78,
+        "materialType": "StandardWithoutMetalness",
+        "isCastingShadow": true,
+        "isReceivingShadow": false,
+        "tint": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "ce38699e294f43b350ea51663814fd1bcc22717c7a461da50a57e7bacadab8cd",
+      "name": "Hitboxes",
+      "persistentUuid": "93426708-7a86-41e8-946c-2c27d1582925",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "name": "Spawned",
+          "persistentUuid": "8a5a745d-49e4-4296-afd7-c283898db84d",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "State",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ThirdPersonCamera",
+          "type": "ThirdPersonCamera::ThirdPersonCamera",
+          "Object3D": "Object3D",
+          "RotationHalfwayDuration": 0.125,
+          "ElevationHalfwayDuration": 0,
+          "TranslationZHalfwayDuration": 0.125,
+          "Distance": 400,
+          "OffsetX": 0,
+          "OffsetY": 0,
+          "OffsetZ": 0,
+          "RotationAngleOffset": -90,
+          "ElevationAngleOffset": 65,
+          "FollowFreeAreaZMax": 0,
+          "FollowFreeAreaZMin": 0,
+          "RotationLogSpeed": 0,
+          "ElevationLogSpeed": 0,
+          "TranslationZLogSpeed": 0,
+          "IsCalledManually": false,
+          "CameraZ": 0,
+          "HasJustBeenCreated": true,
+          "IsRotatingWithObject": false,
+          "IsElevatingWithObject": false,
+          "RotationMode": "ZYX",
+          "TargetedRotationAngle": 0,
+          "TargetedElevationAngle": 0,
+          "ForwardX": 0,
+          "ForwardY": 0,
+          "ForwardZ": 0
+        },
+        {
+          "isFolded": true,
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 4000,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 8000,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 200,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "useLegacyTurnBack": false,
+          "viewpoint": "TopDown"
+        }
+      ],
+      "content": {
+        "width": 50,
+        "height": 50,
+        "depth": 128,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Z",
+        "frontFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "backFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "rightFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "topFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "bottomFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "frontFaceVisible": true,
+        "backFaceVisible": true,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": true,
+        "leftFaceResourceRepeat": true,
+        "rightFaceResourceRepeat": true,
+        "topFaceResourceRepeat": true,
+        "bottomFaceResourceRepeat": true,
+        "tileScale": 0.78,
+        "materialType": "StandardWithoutMetalness",
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "tint": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "ce38699e294f43b350ea51663814fd1bcc22717c7a461da50a57e7bacadab8cd",
+      "name": "Spawnright",
+      "persistentUuid": "a60db16f-30b0-4900-b57c-7eb0d4089fe9",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "name": "Spawned",
+          "persistentUuid": "dd0ca5da-c4c3-46a4-b207-ce07f1fa2906",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Roomidpicker",
+          "persistentUuid": "e4486fe1-5aa0-46a2-ad72-9ffe6a4131b4",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Roomids",
+          "persistentUuid": "20bce32f-3092-4663-9bf4-34d0a4b0bc64",
+          "type": "array",
+          "children": [
+            {
+              "persistentUuid": "ad32e664-4cd5-41d0-8d9d-8c6cbb8a2e3b",
+              "type": "string",
+              "value": "Rightroom1"
+            },
+            {
+              "persistentUuid": "11fcd497-cecc-4a4f-baed-fea3cf69140c",
+              "type": "string",
+              "value": "Rightroom2"
+            },
+            {
+              "persistentUuid": "cbd58237-1608-459b-8ca7-6261277a0a33",
+              "type": "string",
+              "value": "Rightroom3"
+            },
+            {
+              "persistentUuid": "82e9f3b9-2aa1-471a-82f7-b097e2756705",
+              "type": "string",
+              "value": "Rightroom4"
+            },
+            {
+              "persistentUuid": "bebb8159-7769-46e6-a153-34be2dbc0879",
+              "type": "string",
+              "value": "Rightroom5"
+            },
+            {
+              "persistentUuid": "e98c65b6-9ae6-4a17-ba1d-76938accc6de",
+              "type": "string",
+              "value": "Right-to-uproom"
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
+      "content": {
+        "width": 32,
+        "height": 32,
+        "depth": 32,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Z",
+        "frontFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "backFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "rightFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "topFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "bottomFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "frontFaceVisible": true,
+        "backFaceVisible": true,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": true,
+        "leftFaceResourceRepeat": true,
+        "rightFaceResourceRepeat": true,
+        "topFaceResourceRepeat": true,
+        "bottomFaceResourceRepeat": true,
+        "tileScale": 0.78,
+        "materialType": "StandardWithoutMetalness",
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "tint": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "ce38699e294f43b350ea51663814fd1bcc22717c7a461da50a57e7bacadab8cd",
+      "name": "Spawnup",
+      "persistentUuid": "16ac17bd-4ffd-45f3-9728-d7a3e6957230",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "name": "Spawned",
+          "persistentUuid": "3e9f3652-7f86-4638-b5a7-66f8aeb6c62a",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Roomidpicker",
+          "persistentUuid": "e4682835-774b-4cf2-bf17-0417e5721f79",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Roomids",
+          "persistentUuid": "931dadf2-8619-470a-8ceb-07e8d567ca3a",
+          "type": "array",
+          "children": [
+            {
+              "persistentUuid": "9e5b9edf-7d18-4f03-871d-fde7c64a15e1",
+              "type": "string",
+              "value": "Uproom1"
+            },
+            {
+              "persistentUuid": "34ef05aa-ab52-4ffe-a2c8-9234802d96af",
+              "type": "string",
+              "value": "Uproom2"
+            },
+            {
+              "persistentUuid": "e3977484-458a-4bc7-874a-ca8d1189d34e",
+              "type": "string",
+              "value": "Uproom3"
+            },
+            {
+              "persistentUuid": "00f4f08b-db4c-4b8f-9bef-a546aaa19ece",
+              "type": "string",
+              "value": "Up-to-rightroom"
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        }
+      ],
+      "content": {
+        "width": 32,
+        "height": 32,
+        "depth": 32,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Z",
+        "frontFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "backFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "rightFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "topFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "bottomFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "frontFaceVisible": true,
+        "backFaceVisible": true,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": true,
+        "leftFaceResourceRepeat": true,
+        "rightFaceResourceRepeat": true,
+        "topFaceResourceRepeat": true,
+        "bottomFaceResourceRepeat": true,
+        "tileScale": 0.78,
+        "materialType": "StandardWithoutMetalness",
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "tint": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "ce38699e294f43b350ea51663814fd1bcc22717c7a461da50a57e7bacadab8cd",
+      "name": "camera",
+      "persistentUuid": "142ab920-dd95-4b96-92bf-2fb24e7939d6",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "name": "Spawned",
+          "persistentUuid": "342f75e2-e1c3-41d5-b2e4-29cf8fdd0c4c",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 50,
+        "height": 50,
+        "depth": 128,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Z",
+        "frontFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "backFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "rightFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "topFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "bottomFaceResourceName": "GDevelopInvalidTextureBlock.png",
+        "frontFaceVisible": true,
+        "backFaceVisible": true,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": true,
+        "leftFaceResourceRepeat": true,
+        "rightFaceResourceRepeat": true,
+        "topFaceResourceRepeat": true,
+        "bottomFaceResourceRepeat": true,
+        "tileScale": 0.78,
+        "materialType": "StandardWithoutMetalness",
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "tint": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "_3Dlight",
+      "persistentUuid": "c71061be-1a02-40fa-b886-bab5b5e128ce",
+      "type": "Light3D::SpotLight3D",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "",
+      "name": "_2dlight",
+      "persistentUuid": "2917e079-0f9f-446f-9278-b956cc7e6359",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 210,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Door",
+      "persistentUuid": "2ff265d7-c8e3-4f5e-8a69-010e20614ec7",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DestroyOutside",
+          "type": "DestroyOutsideBehavior::DestroyOutside",
+          "extraBorder": 6060,
+          "unseenGraceDistance": 9090
+        }
+      ],
+      "content": {
+        "centerLocation": "CenteredOnZ",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "door.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 180,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Rgb",
+      "persistentUuid": "74a17430-bd3a-4386-888d-b2d269c094b3",
+      "texture": "Rgb",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 0.08,
+            "blue": 1,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 2,
+            "green": 1,
+            "red": 1,
+            "saturation": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "Lesserghostmelee",
+      "persistentUuid": "3834abff-c6b6-44f2-908f-da9ab950a2d2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "CenteredOnZ",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 86.488,
+        "height": 100.00175,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "lesserghost.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": -90,
+        "width": 24.18961198449134,
+        "animations": [
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "Idle"
+          }
+        ]
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Golfball"
+      },
+      {
+        "objectName": "Floor"
+      },
+      {
+        "objectName": "Wall"
+      },
+      {
+        "objectName": "Hitboxes"
+      },
+      {
+        "objectName": "camera"
+      },
+      {
+        "objectName": "Spawnright"
+      },
+      {
+        "objectName": "Spawnup"
+      },
+      {
+        "objectName": "Lesserghostmelee"
+      },
+      {
+        "objectName": "_3Dlight"
+      },
+      {
+        "objectName": "_2dlight"
+      },
+      {
+        "objectName": "Door"
+      },
+      {
+        "objectName": "Rgb"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Fade",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Tween::Exists"
+          },
+          "parameters": [
+            "Fade",
+            "Tween",
+            "\"startingup\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Fade",
+            "Start",
+            "=",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"transition\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween3"
+          },
+          "parameters": [
+            "Fade",
+            "Tween",
+            "Opacity",
+            "\"startingup\"",
+            "0",
+            "\"linear\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Fade",
+            "Start",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Hitboxes",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Hitboxes",
+            "Spawned",
+            "=",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Hitboxes",
+            "Spawned",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Hitboxes"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Playertorso",
+                "Hitboxes.CenterX()",
+                "Hitboxes.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Hitboxes",
+                "Playertorso"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "Hitboxes.CenterX()",
+                "Hitboxes.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Hitboxes",
+                "Player"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Playerlegs",
+                "Hitboxes.CenterX()",
+                "Hitboxes.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Hitboxes",
+                "Playerlegs"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "hisfloorwip.wav",
+            "1",
+            "yes",
+            "100",
+            ".3"
+          ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Layer\""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Roomspawner",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Roomspawner",
+            "Spawned",
+            "=",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsOnScreen::InOnScreen::IsOnScreen"
+          },
+          "parameters": [
+            "Roomspawner",
+            "InOnScreen",
+            "606",
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Spawnright",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Spawnright",
+                "Spawned",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "Spawnright.Roomids[Random((Spawnright.VariableChildCount(Roomids)-1))]",
+                "Spawnright.X()",
+                "Spawnright.BoundingBoxTop()-288",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Spawnright",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Spawnup",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Spawnup",
+                "Spawned",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "Spawnup.Roomids[Random((Spawnup.VariableChildCount(Roomids)-1))]",
+                "Spawnup.X()-384",
+                "Spawnup.BoundingBoxBottom()-606",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Spawnup",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Hitboxes",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Hitboxes",
+            "Spawned",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Hitboxes",
+          "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "Hitboxes",
+                "playerparts",
+                "Hitboxes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "playerparts",
+                "=",
+                "Hitboxes.CenterX()",
+                "=",
+                "Hitboxes.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "playerparts",
+                "=",
+                "Hitboxes.TopDownMovement::Angle()"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::Speed"
+                  },
+                  "parameters": [
+                    "Hitboxes",
+                    "TopDownMovement",
+                    "!=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"LShift\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Hitboxes",
+                        "TopDownMovement",
+                        "=",
+                        "345"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Hitboxes",
+                        "State",
+                        "=",
+                        "\"Running\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"LShift\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Hitboxes",
+                        "TopDownMovement",
+                        "=",
+                        "200"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Hitboxes",
+                        "State",
+                        "=",
+                        "\"Walk\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::Speed"
+                  },
+                  "parameters": [
+                    "Hitboxes",
+                    "TopDownMovement",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Hitboxes",
+                    "State",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Playertorso",
+                    "Animation",
+                    "=",
+                    "Hitboxes.State + Vessel.Torso"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "Hitboxes.State + Vessel.Head"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Playerlegs",
+                    "Animation",
+                    "=",
+                    "Hitboxes.State + Vessel.Legs"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Hitboxes",
+            "Obstacles",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneBackground"
+          },
+          "parameters": [
+            "",
+            "\"0;0;0\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "_2dlight",
+            "=",
+            "Hitboxes.CenterX()",
+            "=",
+            "Hitboxes.CenterY()+155"
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "1.5",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledSpriteObject::XOffset"
+          },
+          "parameters": [
+            "Rgb",
+            "+",
+            ".025"
+          ]
+        },
+        {
+          "type": {
+            "value": "HideCursor"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 620,
+      "camera3DFieldOfView": 65,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "2d+3d",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.7,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "138;138;138",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::LinearFog",
+          "name": "Effect",
+          "doubleParameters": {
+            "far": 606,
+            "near": 200
+          },
+          "stringParameters": {
+            "color": "0;0;0"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 22,
+      "ambientLightColorG": 27,
+      "ambientLightColorR": 2,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "defaultCameraBehavior": "do-nothing",
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Layer",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "CRT",
+          "name": "Effect",
+          "doubleParameters": {
+            "animationFrequency": 60,
+            "animationSpeed": 1,
+            "curvature": 10,
+            "lineContrast": 0.45,
+            "lineWidth": 1.5,
+            "noise": 0.1,
+            "noiseSize": 1,
+            "padding": 0,
+            "vignetting": 0.45,
+            "vignettingAlpha": 1,
+            "vignettingBlur": 0.3
+          },
+          "stringParameters": {},
+          "booleanParameters": {
+            "verticalLine": false
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "transition",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300,
+            "shadowDistance": 2000,
+            "shadowNormalBias": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "shadowRenderingMode": "fittedToCameraView",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "InOnScreen",
+      "type": "IsOnScreen::InOnScreen"
+    },
+    {
+      "name": "Object3D",
+      "type": "Scene3D::Base3DBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "ThirdPersonCamera",
+      "type": "ThirdPersonCamera::ThirdPersonCamera"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}
